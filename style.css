@@ -1,0 +1,122 @@
+/* Algemene stijl */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #fff;
+}
+
+/* Hele hero-sectie */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Logo linksboven */
+.logo-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: inline-block;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  cursor: pointer;
+}
+
+/* Navigatie rechtsboven */
+.nav {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  display: flex;
+  gap: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  opacity: 0.8;
+}
+
+/* Tekst (afbeeldingen) in het midden */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, -50%); /* beetje naar rechts zodat telefoon links kan staan */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.headline-small {
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+.headline-big {
+  max-width: 600px;
+}
+
+/* 3D telefoon */
+.phone-wrapper {
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+  width: 260px;   /* pas aan voor juiste grootte */
+  height: 480px;
+}
+
+.phone-model {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive tweaks voor mobiel */
+@media (max-width: 768px) {
+  .nav {
+    top: 20px;
+    right: 20px;
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  .hero-text {
+    position: static;
+    transform: none;
+    padding: 40px 20px 0;
+  }
+
+  .phone-wrapper {
+    position: static;
+    width: 200px;
+    height: 350px;
+    margin: 40px auto 20px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

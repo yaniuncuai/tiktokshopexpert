@@ -123,7 +123,7 @@ body {
   width: min(260px, 50vw);
   height: min(260px, 50vw);
   border-radius: 50%;
-  background-image: https://parspng.com/wp-content/uploads/2022/05/orangepng.parspng.com_-1.png; /* <-- vervang dit bestand */
+  background-image: orangepng.parspng.com_-1.png /* <-- vervang dit bestand */
   background-size: cover;
   background-position: center;
   box-shadow:

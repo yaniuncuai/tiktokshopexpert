@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>TikTok Shop Expert</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- 3D model viewer (super makkelijk) -->
+  <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+</head>
+<body>
+  <div class="hero">
+
+    <!-- Logo linksboven, link naar home -->
+    <a href="index.html" class="logo-link">
+      <img src="assets/logo.png" alt="Logo" class="logo">
+    </a>
+
+    <!-- Navigatie rechtsboven -->
+    <nav class="nav">
+      <a href="tiktok-shop.html">TIKTOK SHOP</a>
+      <a href="over-ons.html">OVER ONS</a>
+    </nav>
+
+    <!-- Tekst in het midden (als afbeeldingen) -->
+    <div class="hero-text">
+      <img src="assets/coming-soon.png" alt="Coming soon..." class="headline-small">
+      <img src="assets/tiktok-shop-expert.png" alt="TikTok Shop Expert" class="headline-big">
+    </div>
+
+    <!-- 3D telefoon links / midden -->
+    <div class="phone-wrapper">
+      <model-viewer
+        src="assets/phone.glb"
+        alt="3D telefoon"
+        camera-controls
+        disable-zoom
+        auto-rotate
+        rotation-per-second="20deg"
+        interaction-prompt="none"
+        exposure="1.1"
+        class="phone-model">
+      </model-viewer>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -68,14 +68,9 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
-
-.headline-small {
-  max-width: 350px;
-  margin-bottom: 10px;
-}
-
-.headline-big {
-  max-width: 600px;
+.headline {
+  max-width: 600px; /* pas aan tot hij goed schaalt */
+  width: 100%;
 }
 
 /* 3D telefoon */

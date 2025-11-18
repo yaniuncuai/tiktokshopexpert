@@ -69,7 +69,7 @@ body {
   align-items: flex-start;
 }
 .headline {
-  max-width: 600px; /* pas aan tot hij goed schaalt */
+  max-width: 800px; /* pas aan tot hij goed schaalt */
   width: 100%;
 }
 

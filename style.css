@@ -62,8 +62,8 @@ body {
 .hero-text {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-5%, -50%); /* beetje naar rechts zodat telefoon links kan staan */
+  left: 52%;
+  transform: translate(-30%, -50%); /* beetje naar rechts zodat telefoon links kan staan */
   display: flex;
   flex-direction: column;
   align-items: flex-start;

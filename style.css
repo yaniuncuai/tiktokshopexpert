@@ -62,30 +62,23 @@ body {
 .hero-text {
   position: absolute;
   top: 50%;
-  left: 52%;
-  transform: translate(-15%, -50%); /* beetje naar rechts zodat telefoon links kan staan */
+  left: 55%;
+  transform: translate(-30%, -50%);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.headline {
-  max-width: 1000px; /* pas aan tot hij goed schaalt */
-  width: 100%;
-}
+
 
 /* 3D telefoon */
 .phone-wrapper {
   position: absolute;
-  left: 10%;
+  left: 8%;
   bottom: 5%;
-  width: 380px;   /* pas aan voor juiste grootte */
-  height: 680px;
+  width: 220px;   /* was 260px, beetje kleiner */
+  height: 420px;
 }
 
-.phone-model {
-  width: 100%;
-  height: 100%;
-}
 
 /* Responsive tweaks voor mobiel */
 @media (max-width: 768px) {

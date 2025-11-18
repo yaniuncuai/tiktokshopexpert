@@ -63,13 +63,13 @@ body {
   position: absolute;
   top: 50%;
   left: 52%;
-  transform: translate(-30%, -50%); /* beetje naar rechts zodat telefoon links kan staan */
+  transform: translate(-15%, -50%); /* beetje naar rechts zodat telefoon links kan staan */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 .headline {
-  max-width: 800px; /* pas aan tot hij goed schaalt */
+  max-width: 1000px; /* pas aan tot hij goed schaalt */
   width: 100%;
 }
 
@@ -78,8 +78,8 @@ body {
   position: absolute;
   left: 10%;
   bottom: 5%;
-  width: 260px;   /* pas aan voor juiste grootte */
-  height: 480px;
+  width: 380px;   /* pas aan voor juiste grootte */
+  height: 680px;
 }
 
 .phone-model {
